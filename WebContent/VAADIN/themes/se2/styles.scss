@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "se2.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in se2.scss */
+.se2 {
+  @include addons;
+  @include se2;
+}
