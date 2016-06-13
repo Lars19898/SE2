@@ -5,7 +5,7 @@ public class User {
 	private String username;
 	private int id;
 	private int id2;
-	hasldgksdgl;
+	
 	
 
 	public User(String password, String username, int id) {
